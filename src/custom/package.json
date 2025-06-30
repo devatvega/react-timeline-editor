@@ -1,0 +1,36 @@
+{
+    "name": "react-timeline-editor-custom",
+    "version": "1.0.0",
+    "description": "Custom timeline editor module - a standalone version of react-timeline-editor",
+    "main": "index.ts",
+    "author": "Your Name",
+    "license": "MIT",
+    "keywords": [
+        "timeline",
+        "editor",
+        "react",
+        "typescript",
+        "animation"
+    ],
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    },
+    "dependencies": {
+        "react-virtualized": "^9.22.3",
+        "interactjs": "^1.10.11",
+        "framework-utils": "^1.1.0"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.0 || ^18.0.0",
+        "@types/react-dom": "^17.0.0 || ^18.0.0",
+        "@types/react-virtualized": "^9.21.14",
+        "@interactjs/types": "^1.10.11"
+    },
+    "scripts": {
+        "typecheck": "tsc --noEmit"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    }
+}
